@@ -49,8 +49,8 @@ A stand-alone version of Expressive for Express middleware. [Create express rout
 
     const routes = {
       users: {
-        post: createUser // Function
-        get: getUser // Function
+        post: createUser, // Function
+        get: getUser, // Function
         ...
       }
     }
