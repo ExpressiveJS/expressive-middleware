@@ -1,17 +1,22 @@
 # expressive-middleware
 A stand-alone version of Expressive for Express middleware. [Create express routes from an object!]
 
-### Example: ###
+### Install: ###
+    npm install https://github.com/bugs181/expressive-middleware/ --save
 
+### Use: ###
+    const expressive = require('expressive-middleware')
+    const app = require('express')()
+
+    app.use(expressive(routes))
+    app.listen(80)
+
+### Routes Example: ###
     const routes = {
       user: function(name, callback) {
         callback(null, `Username: ${name}`)
       },
     }
-    
-    const app = require('express')()
-    app.use(expressive(routes))
-    app.listen(80)
 
 <br>
 
@@ -29,10 +34,6 @@ A stand-alone version of Expressive for Express middleware. [Create express rout
         ...
       },
     }
-
-    const app = require('express')()
-    app.use(expressive(routes))
-    app.listen(80)
 
 ### Custom CRUD-L terms: ###
 
