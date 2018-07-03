@@ -62,8 +62,8 @@ A stand-alone version of Expressive for Express middleware. [Create express rout
 <br>
 
 ### Documenttion: ###
-More examples of Expressive routes can be found here: 
-https://github.com/bugs181/Expressive/blob/master/README.md
+More examples of Expressive routes can be found here: <br>
+[Expressive Documentation](https://github.com/bugs181/Expressive/blob/master/README.md)
 
 <br>
 
