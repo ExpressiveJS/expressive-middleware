@@ -1,0 +1,31 @@
+{
+  "name": "expressive-middleware",
+  "version": "1.0.0",
+  "description": "A stand-alone version of Expressive for Express middleware. [Create express routes from an object!]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugs181/expressive-middleware.git"
+  },
+  "keywords": [
+    "expressive",
+    "express",
+    "middleware",
+    "objects",
+    "route",
+    "router",
+    "routes"
+  ],
+  "author": "Levi Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugs181/expressive-middleware/issues"
+  },
+  "homepage": "https://github.com/bugs181/expressive-middleware#readme",
+  "dependencies": {
+    "expressive-parser": "git+https://github.com/bugs181/expressive-parser.git"
+  }
+}
