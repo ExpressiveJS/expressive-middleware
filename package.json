@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/bugs181/expressive-middleware#readme",
   "dependencies": {
-    "expressive-parser": "git+https://github.com/bugs181/expressive-parser.git"
+    "expressive-parser": "git+https://github.com/bugs181/expressive-parser.git",
+    "flat": "^4.1.0"
   }
 }

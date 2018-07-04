@@ -1,5 +1,7 @@
 let expressRoutes = {}
 
+const flatten = require('flat')
+
 module.exports = function(routes, config) {
   let skipParse = false
   if (config && config.parsed)
@@ -49,7 +51,7 @@ module.exports = function(routes, config) {
 
     let params = {}
     if (req.method == 'GET')
-      params = req.query
+      params = flatten.unflatten(req.query, { safe: true, object: true })
     else
       params = req.body
 
