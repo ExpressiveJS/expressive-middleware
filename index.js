@@ -1,6 +1,6 @@
 let expressRoutes = {}
 
-const flatten = require('flat')
+const flatten = require('flat') // Pending formal consent: https://github.com/hughsk/flat/issues/73
 
 module.exports = function(routes, config) {
   let skipParse = false
