@@ -44,6 +44,9 @@ A stand-alone version of Expressive for Express middleware. [Create express rout
         update: 'put',
         delete: 'delete',
         list: 'options',
+        auth: 'auth',
+        
+        // Partial terms are coming soon!
       }
     }
 
