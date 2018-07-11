@@ -1,6 +1,6 @@
 # expressive-middleware
 A stand-alone version of [Expressive](https://github.com/bugs181/Expressive) for [Express](https://github.com/expressjs/express) middleware. [Create express routes from an object!]<br>
-You may be looking for [Express for Expressive](https://github.com/bugs181/expressive-express) <br>
+You may be looking for [Express plugin for Expressive](https://github.com/bugs181/expressive-express) <br>
 
 ### Install: ###
     npm install https://github.com/bugs181/expressive-middleware/ --save
