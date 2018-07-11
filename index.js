@@ -14,6 +14,7 @@ module.exports = function(routes, config) {
   expressRoutes.PUT = {}
   expressRoutes.POST = {}
   expressRoutes.DELETE = {}
+  expressRoutes.IGNORE = {}
 
   for (let route of routes) {
     const method = methodForRoute(route)
@@ -75,6 +76,9 @@ function methodForRoute(route) {
 
     case 'list':
       return 'ACL'
+
+    case 'auth':
+      return 'IGNORE'
 
     default:
       return 'GET'
