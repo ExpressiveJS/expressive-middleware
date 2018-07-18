@@ -45,9 +45,6 @@ You may be looking for [Express plugin for Expressive](https://github.com/bugs18
         update: 'put',
         delete: 'delete',
         list: 'options',
-        auth: 'auth',
-        
-        // Partial terms are coming soon!
       }
     }
 
