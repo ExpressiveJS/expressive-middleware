@@ -4,7 +4,7 @@ const flatten = require('flat') // Pending formal consent: https://github.com/hu
 
 module.exports = function(routes, config) {
   let skipParse = false
-  if (config && config.parsed)
+  if (config && config.skipParse)
     skipParse = true
 
   if (!skipParse)
