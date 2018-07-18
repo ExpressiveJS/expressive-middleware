@@ -75,10 +75,7 @@ function methodForRoute(route) {
       return 'DELETE'
 
     case 'list':
-      return 'ACL'
-
-    case 'auth':
-      return 'IGNORE'
+      return 'GET'
 
     default:
       return 'GET'
