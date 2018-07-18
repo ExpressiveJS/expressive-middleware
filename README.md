@@ -65,6 +65,19 @@ You may be looking for [Express plugin for Expressive](https://github.com/bugs18
 
 <br>
 
+### Other config options: ###
+    const config = {
+      statusInResponse: true, // If data is JSON, sends status code along with data.
+      routeNotFound: '404', // Can be a 404.html file. fs.fileSync('404.html')
+    }
+    
+    ...
+    
+    app.use(expressive(routes, config))
+
+<br>
+    
+
 ### Documenttion: ###
 The full routing capabilities of Expressive can be found here: <br>
 [Expressive Documentation](https://github.com/bugs181/Expressive/blob/master/README.md)
